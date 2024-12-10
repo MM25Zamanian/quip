@@ -1,0 +1,16 @@
+{
+  "name": "quip",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Quip is an internal social network designed to foster creativity, collaboration, and community within Gecut. It's a platform where employees can share ideas, connect with colleagues, and find inspiration.",
+  "author": "S. MohammadMahdi Zamanian <dev@mm25zamanian.ir> (https://mm25zamanian.ir)",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "workspaces": [
+    "packages/**/*"
+  ]
+}
